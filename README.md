@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/55565351/83985445-4361ba00-a974-11ea-8c3b-3a6e2f565d9d.jpg" width="300" height="300"/>
 </div>
 
-## 프로젝트 내용식
+## 프로젝트 내용
 * COCO dataset으로 사전 훈련된 SSD MobileNet v2 Quantized 모델을 Transfer Learning하여 ‘Panda’를 객체 인식한다. ‘Panda’ 이미지를 수집하고 ‘LabelImg’ 툴을 사용하여 Panda dataset을 준비한다. 
 * TensorFlow Object Detection API로 준비한 Panda dataset을 Transfer Learning한다. 50000번 학습한 결과를 TensorFlow Lite로 변환한다. 그리고 Google Coral로 추론을 가속하기 위해 TensorFlow Lite 모델을 Edge TPU로 컴파일한다. 완성된 모델을 Jetson Nano에 올려 실시간으로 ‘Panda’를 객체 인식한다. 
 ## 개발 환경

@@ -5,8 +5,8 @@
 </div>
 
 ## 프로젝트 내용식
-* 왼쪽, 오른쪽의 초음파 센서로부터 거리를 측정한다. 왼쪽의 거리가 10cm 이하가 되면 로봇이 멈추고 버저가 울리면서 오른쪽으로 회전하여 회피한다. 
-* 버튼 센서 2개를 사용하여 각각 전원, 속도 조절용으로 사용한다. 전원 버튼은 한 번 누르면 로봇이 움직이고 한 번 더 누르면 멈춘다. 속도 조절 버튼은 누를 때마다 속도가 올라간다. 
+* COCO dataset으로 사전 훈련된 SSD MobileNet v2 Quantized 모델을 Transfer Learning하여 ‘Panda’를 객체 인식한다. ‘Panda’ 이미지를 수집하고 ‘LabelImg’ 툴을 사용하여 Panda dataset을 준비한다. 
+* TensorFlow Object Detection API로 준비한 Panda dataset을 Transfer Learning한다. 50000번 학습한 결과를 TensorFlow Lite로 변환한다. 그리고 Google Coral로 추론을 가속하기 위해 TensorFlow Lite 모델을 Edge TPU로 컴파일한다. 완성된 모델을 Jetson Nano에 올려 실시간으로 ‘Panda’를 객체 인식한다. 
 ## 개발 환경
 제목 | 내용
 --------- | --------

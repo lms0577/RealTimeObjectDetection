@@ -1,6 +1,6 @@
 # 판다 실시간 객체 인식
 <div>
-<img src="https://user-images.githubusercontent.com/55565351/75853843-3b085900-5e32-11ea-95e4-accbb07d2f9a.jpg" width="300"/>
+<img src="https://user-images.githubusercontent.com/55565351/83985685-1b268b00-a975-11ea-8634-dcaa13ed8bd6.jpg" width="300"/>
 <img src="https://user-images.githubusercontent.com/55565351/83985445-4361ba00-a974-11ea-8c3b-3a6e2f565d9d.jpg" width="300"/>
 </div>
 

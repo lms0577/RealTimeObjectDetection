@@ -1,0 +1,26 @@
+<annotation>
+	<folder>eval_image</folder>
+	<filename>panda_030.jpg</filename>
+	<path>/home/michael/TransferLearning/datasets/panda/eval_image/panda_030.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>panda</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>180</xmin>
+			<ymin>56</ymin>
+			<xmax>355</xmax>
+			<ymax>324</ymax>
+		</bndbox>
+	</object>
+</annotation>

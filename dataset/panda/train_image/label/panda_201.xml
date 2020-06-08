@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train_image</folder>
+	<filename>panda_201.jpg</filename>
+	<path>/home/michael/TransferLearning/datasets/panda/train_image/panda_201.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>panda</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>81</ymin>
+			<xmax>316</xmax>
+			<ymax>204</ymax>
+		</bndbox>
+	</object>
+</annotation>

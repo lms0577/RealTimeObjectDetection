@@ -18,5 +18,7 @@ OS | Ubuntu 18.04
  
  ## 프로젝트 결과
  > 비디오 파일: [바로가기](./video/)
+ <div>
  <img src="https://user-images.githubusercontent.com/55565351/83986882-47dca180-a979-11ea-9dc4-a5b2feac6c59.jpg" width="300" height="300"/>
  <img src="https://user-images.githubusercontent.com/55565351/83986919-69d62400-a979-11ea-8982-8528ccfc12dc.jpg" width="300" height="300"/>
+ </div>
